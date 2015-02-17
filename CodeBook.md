@@ -1,7 +1,7 @@
 This code book that describes the variables, the data, and any transformations or work that I performed to clean up
 the data.
 
-ANALISYS 
+# ANALISYS 
 
 Section 1. Merge the training and the test sets to create one data set.
  first I merge the test set (x_test, y_test, subject_test) whith cbind() and I save the result in  testData
