@@ -22,7 +22,8 @@ Section 5.- From the data set in step 4, creates a second, independent tidy data
 variable for each activity and each subject.
  I create a new data set called tidyData and the file tidyData.txt  using write.table()
 
- # VARIABLES
+ # VARIABLES 
+ 
  x_test, y_test, subject_test,  x_train, y_train, subject_train contain the data from the downloaded files.
  trainData contain merge of x_train, y_train, subject_train 
  testData contain merge of x_test, y_test, subject_test
