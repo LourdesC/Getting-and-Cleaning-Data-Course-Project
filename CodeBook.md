@@ -22,5 +22,14 @@ Section 5.- From the data set in step 4, creates a second, independent tidy data
 variable for each activity and each subject.
  I create a new data set called tidyData and the file tidyData.txt  using write.table()
 
- VARIABLES
+ # VARIABLES
+ x_test, y_test, subject_test,  x_train, y_train, subject_train contain the data from the downloaded files.
+ trainData contain merge of x_train, y_train, subject_train 
+ testData contain merge of x_test, y_test, subject_test
+ dataset contain merge of trainData and testData.
+ mean_std_Data is a data set with only the measurements on the mean and standard deviation foreach measurement.
+ data_activity is the previous data set with labels for activities.
+ tidyData is the final data set with the with the average of each variable for each activity and each subject
+ 
+ 
 
