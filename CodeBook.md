@@ -21,5 +21,6 @@ For this section I use the funxtion gsub().
 Section 5.- From the data set in step 4, creates a second, independent tidy data set with the average of each 
 variable for each activity and each subject.
  I create a new data set called tidyData and the file tidyData.txt  using write.table()
- 
+
+ VARIABLES
 
